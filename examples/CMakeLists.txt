@@ -3,20 +3,20 @@ install(FILES
     csp_rx_asmgolay_vector.grc
     README.md
     
-    DESTINATION share/gnuradio/examples/gr-satellites
+    DESTINATION share/gnuradio/examples/satellites
 )
 
 install(FILES
     doppler_correction/doppler_correction_example.grc
     doppler_correction/doppler_file.txt
     
-    DESTINATION share/gnuradio/examples/gr-satellites/doppler_correction
+    DESTINATION share/gnuradio/examples/satellites/doppler_correction
 )
 
 install(FILES
     satellite_decoder/satellite_decoder.grc
     
-    DESTINATION share/gnuradio/examples/gr-satellites/satellite_decoder
+    DESTINATION share/gnuradio/examples/satellites/satellite_decoder
 )
 
 install(FILES
@@ -27,7 +27,7 @@ install(FILES
     ber/lilacsat1.py
     ber/lilacsat1.png
 
-    DESTINATION share/gnuradio/examples/gr-satellites/ber
+    DESTINATION share/gnuradio/examples/satellites/ber
 )
 
 install(FILES
@@ -36,7 +36,7 @@ install(FILES
     satellites/nexus.grc
     satellites/equisat.grc
 
-    DESTINATION share/gnuradio/examples/gr-satellites/satellites
+    DESTINATION share/gnuradio/examples/satellites/satellites
 )
 
 
@@ -46,7 +46,7 @@ install(FILES
     satellites/nx_decoder/sokrat.grc
     satellites/nx_decoder/beesat.grc
 
-    DESTINATION share/gnuradio/examples/gr-satellites/satellites/nx_decoder
+    DESTINATION share/gnuradio/examples/satellites/satellites/nx_decoder
 )
 
 install(FILES
@@ -56,7 +56,7 @@ install(FILES
     ax25/bpsk9k6.grc
     ax25/README.md
 
-    DESTINATION share/gnuradio/examples/gr-satellites/ax25
+    DESTINATION share/gnuradio/examples/satellites/ax25
 )
    
 install(FILES
@@ -69,7 +69,7 @@ install(FILES
     ccsds/TM_Packet_with_Space_Packet.grc
     ccsds/Space_Packet_with_PathID_Demux.grc
     
-    DESTINATION share/gnuradio/examples/gr-satellites/satellites/ccsds
+    DESTINATION share/gnuradio/examples/satellites/satellites/ccsds
 )
 
 install(FILES
@@ -79,7 +79,7 @@ install(FILES
     qo100-multimedia-beacon/qo100_websocket_server.py
     qo100-multimedia-beacon/README.md
     
-    DESTINATION share/gnuradio/examples/gr-satellites/satellites/qo100-multimedia-beacon
+    DESTINATION share/gnuradio/examples/satellites/satellites/qo100-multimedia-beacon
 )
 
 install(FILES
@@ -95,5 +95,5 @@ install(FILES
     components/fsk_demodulator.grc
     components/ax100_deframer.grc
 
-    DESTINATION share/gnuradio/examples/gr-satellites/components
+    DESTINATION share/gnuradio/examples/satellites/components
 )
