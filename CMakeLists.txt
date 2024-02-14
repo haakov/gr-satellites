@@ -185,6 +185,7 @@ add_subdirectory(apps)
 add_subdirectory(docs)
 add_subdirectory(python)
 add_subdirectory(grc)
+add_subdirectory(examples)
 
 ########################################################################
 # Install cmake search helper for this library
@@ -193,3 +194,5 @@ add_subdirectory(grc)
 install(FILES cmake/Modules/satellitesConfig.cmake
     DESTINATION ${CMAKE_MODULES_DIR}/satellites
 )
+
+install(FILES MANIFEST.md RENAME MANIFEST-${VERSION_MAJOR}.${VERSION_API}.${VERSION_ABI}${VERSION_PATCH}.md DESTINATION share/gnuradio/manifests/satellites)
